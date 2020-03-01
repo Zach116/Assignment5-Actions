@@ -26,5 +26,14 @@ class CircleAreaTest(unittest.TestCase):
         self.assertEqual(expected, task.circleArea(radius))
 
 
+class ListTest(unittest.TestCase):
+
+    def test1(self):
+        list = [1, 2, 3 ,4]
+        expectedFirst = 1
+        expepctedLast = 4
+        self.assertEqual((expectedFirst, expepctedLast), task.list(list))
+
+
 if __name__ == '__main__':
     unittest.main()
