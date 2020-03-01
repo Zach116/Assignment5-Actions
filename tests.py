@@ -39,8 +39,8 @@ class ListTest(unittest.TestCase):
 class DaysTest(unittest.TestCase):
 
     def test1(self):
-        date1 = date(2011,11,17)
-        date2 = date(2011,11,9)
+        date1 = date(2011, 11, 17)
+        date2 = date(2011, 11, 9)
         expected = 8
         self.assertEqual(expected, task.days(date1, date2))
 
