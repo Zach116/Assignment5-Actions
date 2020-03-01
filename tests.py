@@ -29,7 +29,7 @@ class CircleAreaTest(unittest.TestCase):
 class ListTest(unittest.TestCase):
 
     def test1(self):
-        list = [1, 2, 3 ,4]
+        list = [1, 2, 3, 4]
         expectedFirst = 1
         expepctedLast = 4
         self.assertEqual((expectedFirst, expepctedLast), task.list(list))

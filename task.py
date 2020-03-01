@@ -7,6 +7,7 @@ def circleArea(r):
     area = pi * (r ** 2)
     return area
 
+
 def list(l):
     first = l[0]
     last = l[-1]
