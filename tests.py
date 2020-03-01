@@ -25,5 +25,6 @@ class CircleAreaTest(unittest.TestCase):
         expected = 19.625
         self.assertEqual(expected, task.circleArea(radius))
 
+
 if __name__ == '__main__':
     unittest.main()
