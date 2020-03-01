@@ -45,8 +45,8 @@ class DaysTest(unittest.TestCase):
         self.assertEqual(expected, task.days(date1, date2))
 
     def test2(self):
-        date1 = date(2011,12,12)
-        date2 = date(2011,10,2)
+        date1 = date(2011, 12, 12)
+        date2 = date(2011, 10, 2)
         expected = 71
         self.assertEqual(expected, task.days(date1, date2))
 
