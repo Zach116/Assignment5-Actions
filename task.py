@@ -11,4 +11,4 @@ def circleArea(r):
 def list(l):
     first = l[0]
     last = l[-1]
-    return (first,last)
+    return (first, last)
